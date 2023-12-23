@@ -22,4 +22,9 @@ spec:
             cpu: "250m"
           limits: 
             memory: "128Mi"
-            cpu: "500m"                                                                                              
+            cpu: "500m"          
+  #maxUnavailable is an optional field that specifies the maximum number of Pods that can be unavailable during the update process. 
+   strategy:
+   type: RollingUpdate
+   rollingUpdate:
+     maxUnavailable: 1                                                                                              
