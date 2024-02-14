@@ -1,6 +1,6 @@
-# :wheel_of_dharma: 30 Days of Kubernetes
+# :wheel_of_dharma: Kubernetes challenges
 
-Personal project to learn Kubernetes in thirty days.
+Personal projects to learn Kubernetes.
 
 ## :pencil: Resources
 
